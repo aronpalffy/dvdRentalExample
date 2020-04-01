@@ -1,0 +1,6 @@
+tasks:
+  - init: createdb dvdrental
+    command: pg_restore -d dvdrental dvdrental.tar
+    
+image:
+  file: .gitpod.Dockerfile
