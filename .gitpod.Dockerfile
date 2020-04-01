@@ -11,5 +11,3 @@ USER gitpod
 
 RUN npm install -g generator-jhipster
 
-RUN createdb dvdrental
-RUN pg_restore -d dvdrental dvdrental.tar 
