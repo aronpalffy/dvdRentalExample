@@ -9,4 +9,4 @@ USER gitpod
 #
 # More information: https://www.gitpod.io/docs/config-docker/
 
-RUN npm install -g generator-jhipster
+#RUN npm install -g generator-jhipster
